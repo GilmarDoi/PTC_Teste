@@ -1,0 +1,31 @@
+unit UCadTelefone_CRUD;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, UDataModule, Mask, DBCtrls, ExtCtrls;
+
+type
+  TForm_CadTelefone = class(TForm)
+    GroupBox1: TGroupBox;
+    DBNavigator1: TDBNavigator;
+    DBEdit1: TDBEdit;
+    DBEdit2: TDBEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form_CadTelefone: TForm_CadTelefone;
+
+implementation
+
+{$R *.dfm}
+
+end.
+

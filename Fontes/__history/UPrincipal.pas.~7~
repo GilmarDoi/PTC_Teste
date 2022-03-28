@@ -1,0 +1,54 @@
+unit UPrincipal;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, Menus, pngimage, QuickRpt, QRCtrls, ExtCtrls, UCadCliente;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    Cadastro1: TMenuItem;
+    Cliente1: TMenuItem;
+    Panel1: TPanel;
+    QRImage1: TQRImage;
+    procedure Cliente1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Cliente1Click(Sender: TObject);
+begin
+   // calcula as dimensões da área de trabalho MDI
+ //  Windows.GetClientRect(ClientHandle, r);
+   If (Form_CadCliente=nil) Then Begin
+   //  LockWindowUpdate(Handle);
+     Form_CadCliente:=TForm_CadCliente.Create(Self);
+    { with Form_CadCliente do begin
+     // calcula o topo centralizado para exibir o formulário
+       Left := ((r.right  - r.left) - Width)  div 2;
+       Top  := ((r.bottom - r.top)  - Height) div 2;
+       Show;
+     end;
+     // retira o bloqueio da apresentação do formulário
+     LockWindowUpdate(0);
+   end else begin
+     if (Form_Animais.WindowState=wsMinimized) then
+       Form_Animais.WindowState:=wsMaximized;  }
+     Form_CadCliente.Show;
+ //  end;
+     Form_CadCliente.free;
+
+end;
+
+end.

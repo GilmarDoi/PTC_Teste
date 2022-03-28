@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/25 17:10:30.756.dproj,C:\Users\Usuario\Documents\RAD Studio\Projects\PTC_Teste.dproj=C:\Users\Usuario\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/03/25 17:11:33.744.dfm,C:\PTC_Teste\Fontes\UPrincipal.dfm=C:\Users\Usuario\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/03/25 17:11:33.744.pas,C:\PTC_Teste\Fontes\UPrincipal.pas=C:\Users\Usuario\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/03/25 17:12:08.546.dproj,C:\PTC_Teste\Fontes\PTC_Teste.dproj=C:\Users\Usuario\Documents\RAD Studio\Projects\PTC_Teste.dproj</Transaction>
+    <Transaction>2022/03/26 14:23:10.416.pas,C:\PTC_Teste\Fontes\Unit2.pas=C:\PTC_Teste\Fontes\UCadCliente.pas</Transaction>
+    <Transaction>2022/03/26 14:23:10.416.dfm,C:\PTC_Teste\Fontes\Unit2.dfm=C:\PTC_Teste\Fontes\UCadCliente.dfm</Transaction>
+    <Transaction>2022/03/26 15:01:02.625.pas,C:\PTC_Teste\Fontes\Unit1.pas=C:\PTC_Teste\Fontes\UDataModule.pas</Transaction>
+    <Transaction>2022/03/26 15:01:02.625.dfm,C:\PTC_Teste\Fontes\Unit1.dfm=C:\PTC_Teste\Fontes\UDataModule.dfm</Transaction>
+    <Transaction>2022/03/26 17:39:14.707.pas,C:\PTC_Teste\Fontes\Unit2.pas=C:\PTC_Teste\Fontes\URelatorio.pas</Transaction>
+    <Transaction>2022/03/26 17:39:14.707.dfm,C:\PTC_Teste\Fontes\Unit2.dfm=C:\PTC_Teste\Fontes\URelatorio.dfm</Transaction>
+    <Transaction>2022/03/27 09:31:24.439.pas,C:\PTC_Teste\Fontes\Unit2.pas=C:\PTC_Teste\Fontes\UCadCliente_CRUD.pas</Transaction>
+    <Transaction>2022/03/27 09:31:24.439.dfm,C:\PTC_Teste\Fontes\Unit2.dfm=C:\PTC_Teste\Fontes\UCadCliente_CRUD.dfm</Transaction>
+    <Transaction>2022/03/27 14:27:02.590.pas,C:\PTC_Teste\Fontes\Unit2.pas=C:\PTC_Teste\Fontes\UCadTelefone_CRUD.pas</Transaction>
+    <Transaction>2022/03/27 14:27:02.590.dfm,C:\PTC_Teste\Fontes\Unit2.dfm=C:\PTC_Teste\Fontes\UCadTelefone_CRUD.dfm</Transaction>
+    <Transaction>2022/03/27 15:28:24.229.pas,C:\PTC_Teste\Fontes\Unit2.pas=C:\PTC_Teste\Fontes\UCadEndereco_CRUD.pas</Transaction>
+    <Transaction>2022/03/27 15:28:24.229.dfm,C:\PTC_Teste\Fontes\Unit2.dfm=C:\PTC_Teste\Fontes\UCadEndereco_CRUD.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

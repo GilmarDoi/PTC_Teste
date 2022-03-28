@@ -1,0 +1,65 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Left = 549
+  Top = 243
+  Height = 247
+  Width = 450
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'Provider=MSDASQL.1;Password=masterkey;Persist Security Info=True' +
+      ';User ID=root;Extended Properties="DSN=MySql 8.0 Driver;DESCRIPT' +
+      'ION=MySql 8.0 Driver;SERVER=LOCALHOST;UID=root;PWD=masterkey;DAT' +
+      'ABASE=ptc;PORT=3306";Initial Catalog=ptc'
+    LoginPrompt = False
+    Left = 40
+    Top = 24
+  end
+  object ADOQuery_Cliente: TADOQuery
+    Active = True
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from cliente')
+    Left = 144
+    Top = 16
+  end
+  object DS_Cliente: TDataSource
+    DataSet = ADOQuery_Cliente
+    Left = 232
+    Top = 16
+  end
+  object DS_Enderco: TDataSource
+    DataSet = ADOTab_Endereco
+    Left = 232
+    Top = 72
+  end
+  object DS_Telefone: TDataSource
+    DataSet = ADOTab_Telefone
+    Left = 232
+    Top = 136
+  end
+  object ADOTab_Endereco: TADOTable
+    Active = True
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    IndexFieldNames = 'Cliente_idCliente'
+    MasterFields = 'idCliente'
+    MasterSource = DS_Cliente
+    TableName = 'endereco'
+    Left = 152
+    Top = 72
+  end
+  object ADOTab_Telefone: TADOTable
+    Active = True
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    IndexFieldNames = 'Cliente_idCliente'
+    MasterFields = 'idCliente'
+    MasterSource = DS_Cliente
+    TableName = 'telefone'
+    Left = 144
+    Top = 136
+  end
+end

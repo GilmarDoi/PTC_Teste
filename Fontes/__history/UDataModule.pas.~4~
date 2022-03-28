@@ -1,0 +1,31 @@
+unit UDataModule;
+
+interface
+
+uses
+  SysUtils, Classes, DB, ADODB;
+
+type
+  TDataModule1 = class(TDataModule)
+    ADOConnection1: TADOConnection;
+    ADOQuery_Cliente: TADOQuery;
+    DS_Cliente: TDataSource;
+    DS_Enderco: TDataSource;
+    DS_Telefone: TDataSource;
+    ADOTab_Endereco: TADOTable;
+    ADOTab_Telefone: TADOTable;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{$R *.dfm}
+
+end.
+

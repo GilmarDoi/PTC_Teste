@@ -1,0 +1,17 @@
+"idEndereco";"Logradouro";"Numero";"CEP";"Bairro";"Cidade";"Estado";"Pais";"Cliente_idCliente"
+3;"AVENIDA ESPÍRITO SANTO";"145";"83408-410";"FÁTIMA";"COLOMBO";"PR";"BRASIL";3
+4;"RUA MANECO VI";"1921";"83206-250";"ALTO SÃO SEBASTIÃO";"PARANAGUÁ";"PR";"BRASIL";4
+5;"UBALDINO CECCON";"18";"83406-500";"VILA SANTA HELENA";"COLOMBO";"PR";"BRASIL";5
+9;"TV CORREIA 	";"153";"83203-260";"CENTRO";"PARANAGUÁ";"PR";"BRASIL";9
+23;"RUA JEQUITINHONHA";"96";"83212-210";"PARQUE SÃO JOÃO";"PARANAGUÁ";"PR";"BRASIL";23
+29;"RUA MANOEL PEREIRA";"572";"83203-765";"VINTE E NOVE DE JULHO";"PARANAGUÁ";"PR";"BRASIL";29
+30;"Rua Nova oRLEANS ";"25";"86060-080";"Jd Lima Azevedo";"lONDRINA";"Pr";"Brasil";15
+31;"888";"88";"89090-060";"888";"888";"pr";"brasil";24
+32;"565";"565";"86060-000";"6565";"565";"pr";"Brasil";9
+34;"Rua Nova Orleans";"25";"86060-080";"Lima Azevedo";"Londrina";"PR";"Brasil";15
+35;"Rua Pedro Marcos Prado";"25";"86060070";"Lima Azevedo";"Londrina";"PR";"Brasil";1
+36;"Rua Tanganica";"56";"86080-000";"Ouro Verde";"Londrina";"PR";"Brasil";12
+38;"Rua Japão";"200";"11020200";"Macuco";"Santos";"SP";"Brasil";34
+39;"Rua Nova Orleans";"";"86060080";"Lima Azevedo";"Londrina";"PR";"Brasil";10
+40;"";"";"";"";"";"";"";18
+41;"Rua Minneápolis";"565";"86060090";"Lima Azevedo";"Londrina";"PR";"Brasil";35

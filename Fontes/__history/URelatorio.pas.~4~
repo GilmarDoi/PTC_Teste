@@ -1,0 +1,45 @@
+unit URelatorio;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, UDataModule, QRCtrls, QuickRpt, ExtCtrls, QRPDFFilt, QRExport;
+
+type
+  TForm2 = class(TForm)
+    QuickRep1: TQuickRep;
+    QRBand1: TQRBand;
+    QRLabel1: TQRLabel;
+    QRSysData1: TQRSysData;
+    QRGroup1: TQRGroup;
+    QRDBText1: TQRDBText;
+    QRDBText2: TQRDBText;
+    QRDBText3: TQRDBText;
+    QRDBText4: TQRDBText;
+    QRDBText5: TQRDBText;
+    QRDBText6: TQRDBText;
+    QRSubDetail1: TQRSubDetail;
+    QRDBText7: TQRDBText;
+    QRDBText8: TQRDBText;
+    QRSubDetail2: TQRSubDetail;
+    QRDBText9: TQRDBText;
+    QRDBText10: TQRDBText;
+    QRExcelFilter1: TQRExcelFilter;
+    QRRTFFilter1: TQRRTFFilter;
+    QRPDFFilter1: TQRPDFFilter;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+end.
+

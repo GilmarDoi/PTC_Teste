@@ -1,0 +1,15 @@
+program PTC_Teste;
+
+uses
+  Forms,
+  UPrincipal in 'UPrincipal.pas' {Form1},
+  UCadCliente in 'UCadCliente.pas' {Form_CadCliente};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
